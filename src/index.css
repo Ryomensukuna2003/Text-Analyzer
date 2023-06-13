@@ -1,13 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Source Code Pro", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navigationWrapper {
+  max-height: 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 15%;
+  background-color: #f1f7ff;
+  box-shadow: 0 0.3px 0.9px rgba(0, 0, 0, 0.1), 0 1.6px 3.6px rgba(0, 0, 0, 0.1);
+  color: white;
+  overflow: hidden;
+  width: auto;
+
+  .stylish {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .navigation {
+    display: flex;
+  }
 }
+
+.bi {
+  color: black;
+  padding-left: 20px;
+  font-size: large;
+}
+
+.UpperDiv {
+  margin: 5% 20% 0% 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0px;
+}
+
+ul {
+  padding: 10px 0px;
+  border-radius: 10px;
+  list-style-type: none;
+  text-align: center;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+}
+
+.Innerlist {
+  padding-top: 5px;
+  font-weight: 700;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Inputdiv {
+  margin: 5% 20% 0% 20%;
+  background-color: #fff;
+  border: 1px solid #f7f7f7;
+  color: #242424;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  min-height: 300px;
+  outline: none;
+  padding: 30px;
+  resize: none;
+  min-width: -webkit-fill-available;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.lastdiv{
+  margin: 0% 20% 5% 20%;
+  background-color: #fff;
+  padding: 30px;
+
+}
+
