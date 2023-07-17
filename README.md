@@ -28,7 +28,7 @@
 #### To run the Word Counter Website locally, follow these steps:
 
 * #### Ensure you have Node.js installed on your machine.
-* #### Clone this repository: git clone https://github.com/your-username/word-counter-website.git
+* #### Clone this repository: git clone https://github.com/Ryomensukuna2003/word-counter-website.git
 * #### Navigate to the project directory: cd word-counter-website
 * #### Install the dependencies: npm install
 * #### Start the development server: npm start
