@@ -1,4 +1,4 @@
-# Word Counter Website [Link](https://ryomensukuna2003.github.io/Text-Analyzer/)
+# Word Counter Website [ [Link] ](https://ryomensukuna2003.github.io/Text-Analyzer/)
 
 #### A simple React.js-based website that counts the number of words, characters, sentences, paragraphs, and pronouns in a given text.
 
